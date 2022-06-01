@@ -100,7 +100,7 @@ class GraphLIME:
         
     def explain_node(self, node_idx, x, edge_index, **kwargs):
         probas = self.__init_predict__(x, edge_index, **kwargs)
-
+        print(probas)
         x, probas, _, _, _, _ = self.__subgraph__(
             node_idx, x, probas, edge_index, **kwargs)
 
