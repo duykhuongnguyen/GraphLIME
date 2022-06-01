@@ -5,3 +5,6 @@ data
 dist
 build
 *.egg-info
+.ipynb_checkpoints/
+*.swp
+graphlime/*.swp
